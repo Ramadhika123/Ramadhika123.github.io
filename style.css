@@ -1,0 +1,282 @@
+*,
+html{
+    padding: 0%;
+    margin: 0%
+}
+.li-home{
+    list-style-type: none;
+    text-align: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.ul-home{
+    display: flex;
+    gap: 8px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-home{
+    height: 15vh;
+}
+
+
+.li-profil{
+    list-style-type: none;
+    text-align: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ul-profil{
+    display: flex;
+    gap: 8px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-profil{
+    height: 15vh;
+}
+
+
+.li-about{
+    list-style-type: none;
+    text-align: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ul-about{
+    display: flex;
+    gap: 8px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-about{
+    height: 15vh;
+}
+
+.li-galerry{
+    list-style-type: none;
+    text-align: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ul-galerry{
+    display: flex;
+    gap: 8px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-galerry{
+    height: 15vh;
+}
+
+.li-kontak{
+    list-style-type: none;
+    text-align: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.ul-kontak{
+    display: flex;
+    gap: 8px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-navbar-kontak{
+    height: 15vh;
+}
+
+
+.img-pri{
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 100%;
+}
+.img-pro{
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-content-home{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-me{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid grey;
+    color: white;
+}
+
+.about-me span{
+    color: yellow;
+}
+
+.body-about{
+    background: #111;
+}
+
+.container-content-about{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.container-content-about h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.container-content-about h3 span{
+    color: aliceblue;
+    padding: 0 .5rem;
+}
+
+.container-navbar-kontak{
+    height: 15vh;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(BACK.png);
+    background-size: cover;
+}
+
+.container-content-kontak{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-footer-kontak{
+    height: 15vh;
+    background-image: url(BACK.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-ig{
+    height: 20px;
+}
+
+.img-wa{
+    height: 20px;
+}
+
+.img-fb{
+    height: 20px;
+}
+.ul-contact-content{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.li-contact-content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    height: 20px;
+}
+
+.li-footer{
+    list-style-type: none;
+}
+
+.Hi{
+    font-size: 2rem;
+}
+
+.r{
+    font-size: 3rem;
+    color: #111;
+}
+
+.info{
+    font-size: 1.5rem;
+    color: #111;
+    padding: .5rem 0;
+}
+
+.container-content-galerry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    gap: 10px;
+}
+
+.container-content-galerry img{
+    height: 250px;
+}
+
+.container-footer-galerry{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foto-pribadi1{
+    height: 350px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+.about-saya{
+    display: flex;
+    flex-direction: row;
+    margin-right: 750px;
+    height: 70vh;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-about{
+    height: 70vh;
+}
+
+.container-footer-profil{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-footer-home{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
